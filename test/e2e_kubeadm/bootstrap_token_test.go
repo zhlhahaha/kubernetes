@@ -35,7 +35,7 @@ const (
 	bootstrapTokensCSRAutoApprovalClusterRoleName    = "system:certificates.k8s.io:certificatesigningrequests:nodeclient"
 )
 
-// Define container for all the test specification aimed at verifying test2
+// Define container for all the test specification aimed at verifying test3
 // that kubeadm creates the bootstrap token, the system:bootstrappers:kubeadm:default-node-token group
 // and that all the related RBAC rules are in place
 var _ = Describe("bootstrap token", func() {
